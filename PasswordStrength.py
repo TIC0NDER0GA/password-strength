@@ -7,6 +7,7 @@ class PassStrength:
     # 1b. There are several things that make a bad password
     # 2b. Using words,
     # names, a group of numbers (birthday: 0801000), short password
+    #commitance
         def __init__(self):
             self.password = ""
 
