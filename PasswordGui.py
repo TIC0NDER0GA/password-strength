@@ -29,8 +29,8 @@ def checkPass():
     else:
         containsSpecial.set('Contains Special Character:  ')
 
-
     print(text.get('1.0', 'end-1c'))
+
 
 frame = tk.Frame(root)
 frame.columnconfigure(0, weight=7)
@@ -39,7 +39,6 @@ containsNum = tk.StringVar(root, "Contains Number: ")
 containsUpper = tk.StringVar(root,"Contains UpperCase: ")
 containsLower = tk.StringVar(root,"Contains LowerCase: ")
 containsSpecial = tk.StringVar(root,"Contains Special Character: ")
-
 
 prompt = tk.Label(root, text='Enter a Password:').grid(column=0,row=0)
 numCheck = tk.Label(root,textvariable=containsNum).grid(column=0,row=1)
